@@ -36,12 +36,7 @@
                   "skapa-ditt-konto",
                   "quick-start"
                 ]
-              }
-            ]
-          },
-          {
-            "tab": "Adminpanelen",
-            "groups": [
+              },
               {
                 "group": "Dashboarden",
                 "pages": [
