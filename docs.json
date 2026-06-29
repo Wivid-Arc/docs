@@ -124,15 +124,7 @@
                           }
                         ]
                       },
-                      "globala-block",
-                      {
-                        "group": "Blockbibliotek",
-                        "icon": "folders",
-                        "pages": [
-                          "huvudbanner-v1",
-                          "huvudbanner-v2"
-                        ]
-                      }
+                      "globala-block"
                     ],
                     "icon": "edit"
                   },
