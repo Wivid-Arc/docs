@@ -21,87 +21,137 @@
         ]
       }
     ],
-    "languages": [
+    "tabs": [
       {
-        "language": "sv",
-        "default": true,
-        "groups": [
+        "tab": "Untitled Tab",
+        "languages": [
           {
-            "group": "Kom igång",
-            "pages": [
-              "valkommen",
-              "skapa-ditt-konto",
-              "quick-start"
-            ]
-          },
-          {
-            "group": "Dashboarden",
-            "pages": [
-              "oversikt",
-              "byt-mellan-projekt"
-            ]
-          },
-          {
-            "group": "Polar CMS",
-            "pages": [
-              "sidor",
-              "inlaegg",
-              "evenemang",
-              "meny",
-              "formulaer",
-              "utseende"
-            ]
-          },
-          {
-            "group": "Aurora booking",
-            "pages": [
-              "kalender",
-              "bokningar",
-              "upplevelser",
-              "kunder",
-              "agentur",
-              "rabatter",
-              "presentkort"
-            ]
-          },
-          {
-            "group": "Verktyg",
-            "pages": [
+            "language": "sv",
+            "default": true,
+            "groups": [
               {
-                "group": "Analys",
-                "expanded": true,
+                "group": "Kom igång",
+                "pages": []
+              },
+              {
+                "group": "Dashboarden",
+                "pages": []
+              },
+              {
+                "group": "Polar CMS",
+                "pages": []
+              },
+              {
+                "group": "Aurora booking",
+                "pages": []
+              },
+              {
+                "group": "Verktyg",
                 "pages": [
-                  "statistik",
-                  "prestanda"
+                  {
+                    "group": "Analys",
+                    "expanded": true,
+                    "pages": []
+                  },
+                  {
+                    "group": "Marknadsföring",
+                    "expanded": true,
+                    "pages": []
+                  }
                 ]
               },
               {
-                "group": "Marknadsföring",
-                "expanded": true,
+                "group": "Konto",
+                "pages": []
+              },
+              {
+                "group": "Företaget",
+                "pages": []
+              }
+            ]
+          },
+          {
+            "language": "sv",
+            "default": true,
+            "groups": [
+              {
+                "group": "Kom igång",
                 "pages": [
-                  "e-post"
+                  "valkommen",
+                  "skapa-ditt-konto",
+                  "quick-start"
                 ]
               },
-              "filer"
-            ]
-          },
-          {
-            "group": "Konto",
-            "pages": [
-              "kontoinstallningar",
-              "inloggningsmetoder",
-              "tvafaktorsautentisering",
-              "losenord",
-              "radera-konto"
-            ]
-          },
-          {
-            "group": "Företaget",
-            "pages": [
-              "allmaenna-instaellningar",
-              "anvaendare",
-              "radera-foeretag",
-              "sekretess-and-sakerhet"
+              {
+                "group": "Dashboarden",
+                "pages": [
+                  "oversikt",
+                  "byt-mellan-projekt"
+                ]
+              },
+              {
+                "group": "Polar CMS",
+                "pages": [
+                  "sidor",
+                  "inlaegg",
+                  "evenemang",
+                  "meny",
+                  "formulaer",
+                  "utseende"
+                ]
+              },
+              {
+                "group": "Aurora booking",
+                "pages": [
+                  "kalender",
+                  "bokningar",
+                  "upplevelser",
+                  "kunder",
+                  "agentur",
+                  "rabatter",
+                  "presentkort"
+                ]
+              },
+              {
+                "group": "Verktyg",
+                "pages": [
+                  {
+                    "group": "Analys",
+                    "expanded": true,
+                    "pages": [
+                      "statistik",
+                      "prestanda"
+                    ]
+                  },
+                  {
+                    "group": "Marknadsföring",
+                    "expanded": true,
+                    "pages": [
+                      "e-post"
+                    ]
+                  },
+                  "filer"
+                ]
+              },
+              {
+                "group": "Konto",
+                "pages": [
+                  "kontoinstallningar",
+                  "inloggningsmetoder",
+                  "tvafaktorsautentisering",
+                  "losenord",
+                  "radera-konto"
+                ]
+              },
+              {
+                "group": "Företaget",
+                "pages": [
+                  "allmaenna-instaellningar",
+                  "anvaendare",
+                  "radera-foeretag",
+                  "sekretess-and-sakerhet"
+                ]
+              }
             ]
           }
         ]
