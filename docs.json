@@ -25,8 +25,9 @@
       {
         "group": "Kom igång",
         "pages": [
-          "index",
-          "quickstart"
+          "valkommen",
+          "skapa-ditt-konto",
+          "quick-start"
         ]
       },
       {
