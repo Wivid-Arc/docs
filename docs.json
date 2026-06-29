@@ -39,7 +39,12 @@
       },
       {
         "group": "Wivid Arc konto",
-        "pages": []
+        "pages": [
+          "kontoinstaellningar",
+          "inloggningsmetoder",
+          "tvafaktorsautentisering",
+          "radera-konto"
+        ]
       },
       {
         "group": "Polar CMS",
