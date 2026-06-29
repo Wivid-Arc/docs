@@ -110,7 +110,7 @@
                             ]
                           }
                         ],
-                        "icon": "layout-rows"
+                        "icon": "layout-2"
                       },
                       {
                         "group": "Sidfot",
@@ -136,7 +136,34 @@
               },
               {
                 "group": "Inlägg",
-                "pages": []
+                "pages": [
+                  "oversikt-inlagg",
+                  "skapa-inlagg",
+                  {
+                    "group": "Redigera inlägg",
+                    "icon": "edit",
+                    "pages": [
+                      "introduktion-redigera-inlagg",
+                      {
+                        "group": "Inläggets block",
+                        "icon": "layout-2",
+                        "pages": [
+                          "introduktion-inlagg-blcok",
+                          {
+                            "group": "Blockbibliotek",
+                            "icon": "folders",
+                            "pages": [
+                              "textinnehall"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "seo-optimering-inlagg",
+                  "arkiv",
+                  "radera-inlaegg"
+                ]
               },
               {
                 "group": "Evenemang",
