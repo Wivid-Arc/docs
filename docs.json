@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Wivid Arc",
+  "name": "Wivida",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#2563EB",
+    "dark": "#050917"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -53,6 +53,24 @@
       "x": "https://x.com/mintlify",
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "background": {
+    "color": {
+      "dark": "#050917"
+    }
+  },
+  "icons": {
+    "library": "tabler"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Lexend",
+      "weight": 700
+    },
+    "body": {
+      "family": "Lexend",
+      "weight": 400
     }
   }
 }
