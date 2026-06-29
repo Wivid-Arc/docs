@@ -33,6 +33,22 @@
               "skapa-ditt-konto",
               "quick-start"
             ]
+          },
+          {
+            "group": "Dashboarden",
+            "pages": [
+              "oversikt",
+              "byt-mellan-projekt"
+            ]
+          },
+          {
+            "group": "Wivid Arc konto",
+            "pages": [
+              "kontoinstallningar",
+              "inloggningsmetoder",
+              "tvafaktorsautentisering",
+              "radera-konto"
+            ]
           }
         ]
       }
