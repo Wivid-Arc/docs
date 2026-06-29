@@ -402,14 +402,7 @@
     "library": "tabler"
   },
   "fonts": {
-    "heading": {
-      "family": "Lexend",
-      "weight": 700
-    },
-    "body": {
-      "family": "Lexend",
-      "weight": 400
-    }
+    "family": "Lexend"
   },
   "styling": {
     "eyebrows": "breadcrumbs"
