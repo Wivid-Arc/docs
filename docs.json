@@ -329,6 +329,29 @@
             ]
           },
           {
+            "tab": "Marknadsföring",
+            "pages": [
+              {
+                "group": "Kom igång",
+                "pages": [
+                  "introduktion-marknadsforing"
+                ]
+              },
+              {
+                "group": "E-post",
+                "pages": [
+                  "oversikt-epost",
+                  "kampanjer",
+                  "redigera-kampanj",
+                  "kampanjanalys",
+                  "prenumeranter",
+                  "mallar",
+                  "automationer"
+                ]
+              }
+            ]
+          },
+          {
             "tab": "Changelog",
             "pages": [
               "changelog"

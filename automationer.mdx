@@ -1,0 +1,73 @@
+---
+title: "Automationer"
+icon: "automation"
+description: "Så hanterar du automatiska e-postutskick."
+---
+
+Under **Automationer** hanterar du utskick som triggas automatiskt.
+
+Automationer kan användas för nyhetsbrevshändelser och, om bokningssystemet är aktivt, bokningsrelaterade mail.
+
+## Automationstyper
+
+<Tabs>
+  <Tab title="Nyhetsbrev">
+    Nyhetsbrevsautomationer kan triggas av händelser som att en ny prenumerant läggs till.
+  </Tab>
+
+  <Tab title="Bokningsmail">
+    Bokningsmail har fasta triggers kopplade till bokningsflödet. Du kan anpassa innehållet för varje trigger.
+  </Tab>
+</Tabs>
+
+## Skapa automation
+
+<Steps>
+  <Step title="Öppna Automationer">
+    Gå till **E-post** → **Automationer**.
+  </Step>
+
+  <Step title="Klicka på Ny">
+    Välj trigger för automationen.
+  </Step>
+
+  <Step title="Fyll i uppgifter">
+    För nyhetsbrevsautomationer anger du namn och eventuell ämnesrad.
+  </Step>
+
+  <Step title="Redigera innehåll">
+    Öppna automationen och bygg mailet i e-postredigeraren.
+  </Step>
+</Steps>
+
+## Status och åtgärder
+
+Automationer kan vara aktiva eller inaktiva.
+
+<AccordionGroup>
+  <Accordion title="Aktiv">
+    Automationens utskick kan skickas när triggern inträffar.
+  </Accordion>
+
+  <Accordion title="Inaktiv">
+    Automationens utskick är pausat.
+  </Accordion>
+
+  <Accordion title="Skicka test">
+    Skickar ett testmail så du kan kontrollera innehållet.
+  </Accordion>
+
+  <Accordion title="Återställ mall">
+    För bokningsmail kan en anpassad mall återställas till standard.
+  </Accordion>
+</AccordionGroup>
+
+## Bokningsmail
+
+När bokningssystemet är aktivt kan automationer även visa bokningsmail.
+
+Det är mail som hör ihop med bokningsflödet, till exempel bekräftelser, påminnelser eller andra bokningsrelaterade utskick.
+
+<Note>
+  Bokningsmail har fasta triggers. Du väljer triggern och anpassar innehållet, men själva triggern styrs av bokningssystemet.
+</Note>
