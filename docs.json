@@ -178,7 +178,11 @@
                             "group": "Blockbibliotek",
                             "icon": "folders",
                             "pages": [
-                              "textinnehall"
+                              "textinnehall",
+                              "bild-inlagg",
+                              "fordelar-inlagg",
+                              "faq-inlagg",
+                              "formular-inlagg"
                             ]
                           }
                         ]

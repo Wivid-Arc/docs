@@ -1,4 +1,99 @@
 ---
 title: "Arkiv"
 icon: "archive"
+description: "Så fungerar inläggsarkivet och dess inställningar."
 ---
+
+Arkivet är den publika samlingssidan för inlägg.
+
+Här listas webbplatsens publicerade inlägg. Arkivet kan till exempel heta Blogg, Nyheter, Artiklar eller Inlägg.
+
+## Öppna arkivinställningar
+
+1. Gå till **Webbplats**.
+2. Öppna **Inlägg**.
+3. Klicka på **Arkivinställningar**.
+4. Justera fälten.
+5. Klicka på **Spara**.
+
+## Fält
+
+### Namn på arkivet
+
+Namnet som beskriver arkivet, till exempel:
+
+- Blogg
+- Nyheter
+- Artiklar
+- Inlägg
+
+### Slug
+
+Sluggen styr arkivets URL.
+
+Exempel:
+
+```text
+/posts
+```
+
+Om ett inlägg har sluggen `nyhet` blir inläggets URL:
+
+```text
+/posts/nyhet
+```
+
+### Standardbild
+
+Bild som kan användas som fallback om ett inlägg saknar egen bild.
+
+### SEO
+
+Arkivet har egna SEO-fält:
+
+- titel för sökmotorer
+- beskrivning för sökmotorer
+- sökord
+- Open Graph-bild
+
+Detta påverkar arkivsidan, inte enskilda inlägg.
+
+### Arkiv aktivt
+
+Styr om arkivsidan ska vara tillgänglig publikt.
+
+Om arkivet är inaktiverat visas inte arkivsidan.
+
+### Filtrering
+
+Aktiverar taggfiltrering så att besökare kan filtrera inlägg efter taggar.
+
+### Sökning
+
+Aktiverar sökfunktion i arkivet.
+
+### Pagination
+
+Delar upp inläggen på flera sidor.
+
+Om pagination är avstängt visas alla inlägg på samma arkivsida.
+
+### Visa datum
+
+Visar publiceringsdatum på arkivkort och inläggssidor.
+
+### Visa författare
+
+Visar vem som skapat eller står som författare för inlägget.
+
+### Visa lästid
+
+Visar uppskattad lästid.
+
+### Visa scroll-progress
+
+Visar läsprogress när besökaren läser ett inlägg.
+
+<Note>
+  Om du ändrar arkivets slug ändras URL-strukturen för alla inlägg i arkivet.
+</Note>

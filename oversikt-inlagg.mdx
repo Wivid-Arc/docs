@@ -1,4 +1,86 @@
 ---
 title: "Översikt"
 icon: "binoculars"
+description: "Så fungerar inläggslistan i Polar CMS."
 ---
+
+Under **Inlägg** hanterar du webbplatsens artiklar, nyheter eller blogginlägg.
+
+Här ser du alla inlägg, deras status, URL, sidvisningar, senaste ändring och SEO-poäng. Från listan kan du skapa nya inlägg, öppna redigering, ändra inställningar, duplicera eller ta bort inlägg.
+
+## Öppna inläggslistan
+
+1. Logga in i adminpanelen.
+2. Välj rätt projekt.
+3. Gå till **Webbplats**.
+4. Öppna **Inlägg**.
+
+## Vad du ser i listan
+
+Inläggslistan visar bland annat:
+
+- inläggets titel
+- inläggets URL
+- publiceringsstatus
+- när inlägget senast ändrades
+- sidvisningar
+- SEO-poäng
+
+URL:en bygger på arkivets slug och inläggets egen slug. Om arkivet till exempel har sluggen `/posts` och inlägget har sluggen `nyhet`, blir URL:en `/posts/nyhet`.
+
+## Statusar
+
+Ett inlägg kan ha olika statusar.
+
+| Status | Betydelse |
+| --- | --- |
+| Publicerad | Inlägget är synligt för besökare. |
+| Opublicerad | Inlägget är sparat men visas inte publikt. |
+| Schemalagd | Inlägget publiceras automatiskt vid vald tid. |
+| Raderad | Inlägget ligger i raderade inlägg och kan tas tillbaka eller raderas permanent. |
+
+Du kan filtrera listan efter status via statusfiltret.
+
+## Sök och filtrera
+
+Använd sökfältet för att hitta ett inlägg via titel eller slug.
+
+Du kan också filtrera på:
+
+- alla statusar
+- publicerade
+- schemalagda
+- opublicerade
+- raderade
+
+## Åtgärder för ett inlägg
+
+Via åtgärdsmenyn kan du till exempel:
+
+- **Redigera** inlägget
+- **Visa** ett publicerat inlägg
+- **Förhandsgranska** ett opublicerat inlägg
+- **Kopiera URL**
+- öppna **Inställningar**
+- **Duplicera** inlägget
+- **Ta bort** inlägget
+
+<Note>
+  Opublicerade inlägg kan förhandsgranskas av inloggade användare, men är inte synliga för vanliga besökare.
+</Note>
+
+## Statistik och SEO
+
+Listan visar sidvisningar för varje inlägg och en SEO-poäng.
+
+Klicka på SEO-mätaren för att se vilka delar som kan förbättras.
+
+<CardGroup cols={2}>
+  <Card title="Skapa inlägg" icon="plus" href="/skapa-inlagg">
+    Skapa ett nytt inlägg i Polar CMS.
+  </Card>
+
+  <Card title="Redigera inlägg" icon="edit" href="/introduktion-redigera-inlagg">
+    Lär dig hur inläggsredigeraren fungerar.
+  </Card>
+</CardGroup>
