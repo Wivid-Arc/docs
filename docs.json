@@ -27,9 +27,11 @@
         "default": true,
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Kom igång",
             "pages": [
-              "valkommen"
+              "valkommen",
+              "skapa-ditt-konto",
+              "quick-start"
             ]
           }
         ]
