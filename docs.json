@@ -109,7 +109,8 @@
                               "huvudbanner-v2-1"
                             ]
                           }
-                        ]
+                        ],
+                        "icon": "layout-rows"
                       },
                       {
                         "group": "Sidfot",
@@ -122,7 +123,8 @@
                               "sidfot"
                             ]
                           }
-                        ]
+                        ],
+                        "icon": "layout-bottombar"
                       },
                       "globala-block"
                     ],
