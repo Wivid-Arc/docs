@@ -228,18 +228,95 @@
             ]
           },
           {
-            "tab": "Aurora booking",
-            "groups": [
+            "tab": "Aurora Booking",
+            "pages": [
               {
-                "group": "Aurora booking",
+                "group": "Kom igång",
                 "pages": [
-                  "kalender",
-                  "bokningar",
-                  "upplevelser",
-                  "kunder",
-                  "agentur",
-                  "rabatter",
-                  "presentkort"
+                  "introduktion-aurora-booking",
+                  "bokningsinstallningar",
+                  "betalningar-bokning"
+                ]
+              },
+              {
+                "group": "Kalender",
+                "pages": [
+                  "oversikt-kalender",
+                  "skapa-tillfalle",
+                  "redigera-tillfalle",
+                  "filtrera-kalender",
+                  "lagg-till-gast",
+                  "skicka-meddelande-till-gaster"
+                ]
+              },
+              {
+                "group": "Bokningar",
+                "pages": [
+                  "oversikt-bokningar",
+                  "skapa-bokning",
+                  "bokningsdetalj",
+                  "omboka-bokning",
+                  "avboka-bokning",
+                  "importera-exportera-bokningar"
+                ]
+              },
+              {
+                "group": "Upplevelser",
+                "pages": [
+                  "oversikt-upplevelser",
+                  "skapa-upplevelse",
+                  {
+                    "group": "Redigera upplevelse",
+                    "icon": "edit",
+                    "pages": [
+                      "redigera-upplevelse",
+                      "datum-och-tider",
+                      "priser-och-biljetter",
+                      "checkout-falt",
+                      "snabbfakta",
+                      "seo-upplevelser"
+                    ]
+                  },
+                  "arkiv-upplevelser",
+                  "radera-upplevelse"
+                ]
+              },
+              {
+                "group": "Kunder",
+                "pages": [
+                  "oversikt-kunder",
+                  "skapa-kund",
+                  "kundprofil",
+                  "radera-kund"
+                ]
+              },
+              {
+                "group": "Agentur",
+                "pages": [
+                  "oversikt-agentur",
+                  "skapa-agentur",
+                  "agenturprofil",
+                  "agenturlankar",
+                  "fakturering-agentur",
+                  "radera-agentur"
+                ]
+              },
+              {
+                "group": "Rabatter",
+                "pages": [
+                  "oversikt-rabatter",
+                  "skapa-rabatt",
+                  "redigera-rabatt",
+                  "radera-rabatt"
+                ]
+              },
+              {
+                "group": "Presentkort",
+                "pages": [
+                  "oversikt-presentkort",
+                  "skapa-presentkort",
+                  "redigera-presentkort",
+                  "radera-presentkort"
                 ]
               }
             ]
