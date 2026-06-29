@@ -55,26 +55,16 @@
                 ]
               },
               {
-                "group": "Företaget",
-                "pages": [
-                  "allmanna-installningar",
-                  "anvandare",
-                  "radera-foretag"
-                ]
-              },
-              {
                 "group": "Inställningar",
                 "pages": [
-                  "oversikt-installningar",
+                  "allmanna-installningar",
                   "doman",
-                  "sprak",
-                  "e-post",
-                  "filer",
                   "cookies",
                   "policyer",
+                  "sprak",
                   "seo-installningar",
                   "omdirigeringar",
-                  "sekretess-och-sakerhet"
+                  "anvandare"
                 ]
               }
             ]
