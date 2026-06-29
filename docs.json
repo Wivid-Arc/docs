@@ -20,8 +20,8 @@
     ]
   },
   "logo": {
-    "light": "/images/wividarc-logo-light-svg-2.svg",
-    "dark": "/images/wividarc-logo-dark.svg"
+    "light": "/images/wividarc-logo-dark.png",
+    "dark": "/images/wividarc-logo-dark.png"
   },
   "navbar": {
     "links": [
@@ -50,10 +50,37 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "linkedin": "https://linkedin.com/company/wividarc",
+      "instagram": "https://youtube.com/@wividarc",
+      "youtube": "https://www.youtube.com/@WividArc"
+    },
+    "links": [
+      {
+        "header": "Information & hjälp",
+        "items": [
+          {
+            "label": "Artiklar",
+            "href": "https://wividarc.se/artiklar"
+          },
+          {
+            "label": "Support",
+            "href": "https://wividarc.se/support"
+          },
+          {
+            "label": "SLA",
+            "href": "https://wividarc.se/sla"
+          },
+          {
+            "label": "Dataskydd",
+            "href": "https://wividarc.se/dataskydd"
+          },
+          {
+            "label": "System status",
+            "href": "https://wividarc.se/status"
+          }
+        ]
+      }
+    ]
   },
   "background": {
     "color": {
@@ -72,5 +99,17 @@
       "family": "Lexend",
       "weight": 400
     }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "interaction": {
+    "drilldown": false
+  },
+  "search": {
+    "prompt": "Sök eller fråga..."
+  },
+  "markdown": {
+    "schema": true
   }
 }
