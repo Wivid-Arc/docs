@@ -41,7 +41,8 @@
                 "group": "Dashboarden",
                 "pages": [
                   "oversikt",
-                  "byt-mellan-projekt"
+                  "byt-mellan-projekt",
+                  "filer"
                 ]
               },
               {
