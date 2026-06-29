@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Wivida",
+  "name": "Wividac",
   "colors": {
     "primary": "#2563EB",
     "light": "#2563EB",
@@ -21,38 +21,43 @@
         ]
       }
     ],
-    "groups": [
+    "languages": [
       {
-        "group": "Kom igång",
-        "pages": [
-          "valkommen",
-          "skapa-ditt-konto",
-          "quick-start"
+        "language": "sv",
+        "groups": [
+          {
+            "group": "Kom igång",
+            "pages": [
+              "valkommen",
+              "skapa-ditt-konto",
+              "quick-start"
+            ]
+          },
+          {
+            "group": "Dashboarden",
+            "pages": [
+              "oversikt",
+              "byt-mellan-projekt"
+            ]
+          },
+          {
+            "group": "Wivid Arc konto",
+            "pages": [
+              "kontoinstaellningar",
+              "inloggningsmetoder",
+              "tvafaktorsautentisering",
+              "radera-konto"
+            ]
+          },
+          {
+            "group": "Polar CMS",
+            "pages": []
+          },
+          {
+            "group": "Aurora Booking",
+            "pages": []
+          }
         ]
-      },
-      {
-        "group": "Dashboarden",
-        "pages": [
-          "oversikt",
-          "byt-mellan-projekt"
-        ]
-      },
-      {
-        "group": "Wivid Arc konto",
-        "pages": [
-          "kontoinstaellningar",
-          "inloggningsmetoder",
-          "tvafaktorsautentisering",
-          "radera-konto"
-        ]
-      },
-      {
-        "group": "Polar CMS",
-        "pages": []
-      },
-      {
-        "group": "Aurora Booking",
-        "pages": []
       }
     ]
   },
@@ -141,12 +146,12 @@
     "eyebrows": "breadcrumbs"
   },
   "interaction": {
-    "drilldown": false
+    "drilldown": true
   },
   "search": {
     "prompt": "Sök eller fråga..."
   },
   "markdown": {
-    "schema": false
+    "schema": true
   }
 }
