@@ -106,7 +106,31 @@
                             "icon": "folders",
                             "pages": [
                               "huvudbanner-v1-1",
-                              "huvudbanner-v2-1"
+                              "huvudbanner-v2-1",
+                              "ikoner",
+                              "bild-med-funktioner",
+                              "bild-med-text",
+                              "karta",
+                              "raeknare",
+                              "logotyper",
+                              "kort",
+                              "recensioner",
+                              "google-recensioner",
+                              "instagram-floede",
+                              "prisplaner",
+                              "en-prisplan",
+                              "pristabell",
+                              "tidslinje",
+                              "bildgalleri",
+                              "textinnehall-sida",
+                              "inlaggskort",
+                              "upplevelsekort",
+                              "formular-block",
+                              "nyhetsbrev-block",
+                              "vanliga-fragor",
+                              "presentkort-kop",
+                              "bokningskalender",
+                              "egen-html"
                             ]
                           }
                         ],
