@@ -23,7 +23,7 @@
     ],
     "tabs": [
       {
-        "tab": "Untitled Tab",
+        "tab": "Kom igång",
         "languages": [
           {
             "language": "sv",
@@ -90,29 +90,6 @@
                 ]
               },
               {
-                "group": "Polar CMS",
-                "pages": [
-                  "sidor",
-                  "inlaegg",
-                  "evenemang",
-                  "meny",
-                  "formulaer",
-                  "utseende"
-                ]
-              },
-              {
-                "group": "Aurora booking",
-                "pages": [
-                  "kalender",
-                  "bokningar",
-                  "upplevelser",
-                  "kunder",
-                  "agentur",
-                  "rabatter",
-                  "presentkort"
-                ]
-              },
-              {
                 "group": "Verktyg",
                 "pages": [
                   {
@@ -152,6 +129,39 @@
                   "sekretess-and-sakerhet"
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Polar CMS",
+        "groups": [
+          {
+            "group": "Polar CMS",
+            "pages": [
+              "sidor",
+              "inlaegg",
+              "evenemang",
+              "meny",
+              "formulaer",
+              "utseende"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Aurora booking",
+        "groups": [
+          {
+            "group": "Aurora booking",
+            "pages": [
+              "kalender",
+              "bokningar",
+              "upplevelser",
+              "kunder",
+              "agentur",
+              "rabatter",
+              "presentkort"
             ]
           }
         ]
