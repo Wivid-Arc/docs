@@ -1,4 +1,141 @@
 ---
 title: "Redigera formulär"
 icon: "edit"
+description: "Så redigerar du formulärfält, mottagare och formulärinställningar."
 ---
+
+I formulärredigeraren bygger du formulärets innehåll och inställningar.
+
+Här kan du ändra formulärets namn, lägga till fält, sortera fält, välja e-postmottagare, aktivera spårning och samla in e-post till maillista.
+
+## Öppna ett formulär
+
+1. Gå till **Webbplats**.
+2. Öppna **Formulär**.
+3. Klicka på formuläret du vill redigera eller välj **Redigera** i åtgärdsmenyn.
+
+## Namn
+
+Formulärets namn visas i adminpanelen.
+
+Det hjälper dig att känna igen formuläret när du väljer det i ett formulärblock.
+
+## Formulärfält
+
+Under **Formulärfält** bygger du själva formuläret.
+
+Klicka på **Lägg till** och välj fälttyp.
+
+### Fälttyper
+
+Du kan lägga till:
+
+| Fälttyp | Användning |
+| --- | --- |
+| Textfält | Kort fri text. |
+| Namn | Förifyllt namnfält. |
+| E-post | Förifyllt e-postfält. |
+| Telefon | Telefonnummer. |
+| Nummer | Numeriska värden. |
+| Textområde | Längre text. |
+| Meddelande | Förifyllt meddelandefält. |
+| Dropdown | Ett val från flera alternativ. |
+| Checkbox | Ett kryssval. |
+
+## Redigera ett fält
+
+Klicka på ett fält eller öppna fältets åtgärdsmeny och välj **Redigera**.
+
+### Vanliga fältinställningar
+
+| Fält | Beskrivning |
+| --- | --- |
+| Fälttyp | Vilken typ av fält det är. |
+| Label | Texten som visas ovanför eller vid fältet. |
+| Fältnamn | Det tekniska namnet som används i inskick. |
+| Placeholder | Hjälptext i fältet. |
+| Obligatoriskt fält | Gör fältet obligatoriskt att fylla i. |
+
+Vissa standardfält, till exempel namn, e-post, telefon och meddelande, har förifyllda värden.
+
+### Textområde och meddelande
+
+För textområden kan du ange **Antal rader**.
+
+Meddelandefältet använder ett standardupplägg för längre meddelanden.
+
+### Dropdown
+
+Dropdown-fält har egna alternativ.
+
+Varje alternativ har:
+
+- **Värde**
+- **Label**
+
+Du kan lägga till och ta bort alternativ.
+
+## Sortera och layouta fält
+
+Du kan dra fält för att ändra ordning.
+
+Vissa fälttyper kan placeras bredvid varandra i två kolumner. Större fält, till exempel textområde, meddelande och checkbox, visas alltid på full bredd.
+
+## Åtgärder för fält
+
+Via fältets åtgärdsmeny kan du:
+
+- **Redigera**
+- **Duplicera**
+- **Ta bort**
+
+<Warning>
+  Om du duplicerar ett fält, kontrollera att label och fältnamn blir rätt. Två fält med otydliga eller liknande namn kan göra inskick svårare att tolka.
+</Warning>
+
+## Förhandsgranskning
+
+Formulärredigeraren visar formuläret med webbplatsens utseende.
+
+Du ser även standarddelar som:
+
+- integritetspolicy-checkbox
+- nyhetsbrevsval, om det är aktiverat
+- skicka-knapp
+- reCAPTCHA-information
+
+## E-postadresser
+
+Här anger du vilka e-postadresser som ska ta emot formulärskickningar.
+
+Flera mottagare separeras med komma.
+
+Exempel:
+
+```text
+kontakt@example.com, support@example.com
+```
+
+Om inga mottagare anges sparas inskicken fortfarande i adminpanelen.
+
+## Spåra inskickningar
+
+När **Spåra** är aktiverat sparas ett event för varje inskick.
+
+Det kan användas för att följa konverteringar och koppla inskick till webbplatsens statistik.
+
+När spårning aktiveras skapas ett tracking-ID.
+
+## Samla in e-post till maillista
+
+När detta är aktiverat visas en checkbox där besökaren kan välja att få erbjudanden, tips och nyheter via e-post.
+
+<Note>
+  Besökaren behöver själv välja att bli tillagd i maillistan.
+</Note>
+
+## Spara ändringar
+
+När du har ändrat formuläret behöver du spara.
+
+Ändringar påverkar formuläret på alla sidor där det används.
