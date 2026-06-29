@@ -49,6 +49,15 @@
               "tvafaktorsautentisering",
               "radera-konto"
             ]
+          },
+          {
+            "group": "Hantera företaget",
+            "pages": [
+              "allmaenna-instaellningar",
+              "anvaendare",
+              "radera-foeretag",
+              "sekretess-and-sakerhet"
+            ]
           }
         ]
       }
