@@ -32,7 +32,10 @@
       },
       {
         "group": "Dashboarden",
-        "pages": []
+        "pages": [
+          "oversikt",
+          "byt-mellan-projekt"
+        ]
       },
       {
         "group": "Wivid Arc konto",
