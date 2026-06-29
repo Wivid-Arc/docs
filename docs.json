@@ -176,7 +176,13 @@
               },
               {
                 "group": "Formulär",
-                "pages": []
+                "pages": [
+                  "oeversikt-2",
+                  "skapa-formulaer",
+                  "redigera-formulaer",
+                  "se-inskick",
+                  "radera-fomulaer"
+                ]
               },
               {
                 "group": "Utseende",
