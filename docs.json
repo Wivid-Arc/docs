@@ -81,7 +81,60 @@
                   "skapa-sida",
                   {
                     "group": "Redigera sida",
-                    "pages": []
+                    "pages": [
+                      "introduktion-1",
+                      {
+                        "group": "Sidhuvud",
+                        "icon": "layout-navbar",
+                        "pages": [
+                          "introduktion-sidhuvud",
+                          {
+                            "group": "Blockbibliotek",
+                            "pages": [
+                              "topbar",
+                              "sidhuvud"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "group": "Sidans block",
+                        "pages": [
+                          "introduktion-sidansblock",
+                          {
+                            "group": "Blockbibliotek",
+                            "icon": "folders",
+                            "pages": [
+                              "huvudbanner-v1-1",
+                              "huvudbanner-v2-1"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "group": "Sidfot",
+                        "pages": [
+                          "introduktion-sidfot",
+                          {
+                            "group": "Blockbibliotek",
+                            "icon": "folders",
+                            "pages": [
+                              "sidfot"
+                            ]
+                          }
+                        ]
+                      },
+                      "globala-block",
+                      {
+                        "group": "Blockbibliotek",
+                        "icon": "folders",
+                        "pages": [
+                          "huvudbanner-v1",
+                          "huvudbanner-v2"
+                        ]
+                      }
+                    ],
+                    "icon": "edit"
                   },
                   "seo-optimering",
                   "radera-sida"
