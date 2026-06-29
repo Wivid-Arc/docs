@@ -110,6 +110,6 @@
     "prompt": "Sök eller fråga..."
   },
   "markdown": {
-    "schema": true
+    "schema": false
   }
 }
