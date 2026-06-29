@@ -186,7 +186,15 @@
               },
               {
                 "group": "Utseende",
-                "pages": []
+                "pages": [
+                  "oeversikt-3",
+                  "farger",
+                  "typsnitt",
+                  "textstorlekar",
+                  "border-radius",
+                  "favicon",
+                  "logotyp"
+                ]
               }
             ]
           },
