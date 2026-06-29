@@ -234,7 +234,8 @@
                   "seo-optimering-evenemang",
                   "arkiv-evenemang",
                   "radera-evenemang"
-                ]
+                ],
+                "tag": "Beta"
               },
               {
                 "group": "Meny",
@@ -341,7 +342,8 @@
                   "agenturlankar",
                   "fakturering-agentur",
                   "radera-agentur"
-                ]
+                ],
+                "tag": "Ny"
               },
               {
                 "group": "Rabatter",
