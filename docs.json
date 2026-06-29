@@ -58,6 +58,8 @@
                 "group": "Inställningar",
                 "pages": [
                   "allmanna-installningar",
+                  "sociala-medier",
+                  "anpassad-kod",
                   "doman",
                   "cookies",
                   "policyer",

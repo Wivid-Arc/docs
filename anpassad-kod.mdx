@@ -1,0 +1,71 @@
+---
+title: "Anpassad kod"
+icon: "code"
+description: "Så hanterar du projektunik CSS och JavaScript."
+---
+
+Under **Anpassad kod** kan du lägga till projektunik CSS och JavaScript som körs på den publika webbplatsen.
+
+Använd funktionen när webbplatsen behöver en mindre anpassning som inte täcks av vanliga inställningar eller block.
+
+<Warning>
+  Lägg bara till kod som du förstår och har testat. Felaktig CSS eller JavaScript kan påverka webbplatsens utseende, prestanda eller funktion.
+</Warning>
+
+## Kodtyper
+
+<Tabs>
+  <Tab title="Custom CSS">
+    CSS används för visuella anpassningar, till exempel spacing, färger eller mindre layoutjusteringar.
+
+    Alla CSS-snuttar injiceras i sidans `head`. Använd gärna selektorer som riktar in sig på rätt del av webbplatsen, till exempel `.public-site`.
+  </Tab>
+
+  <Tab title="Custom JavaScript">
+    JavaScript används för script och funktioner som behöver köras på publika sidor.
+
+    JavaScript-snuttar körs på publika sidor i vald ordning. Lägg `@critical` i en snutt om den behöver köras tidigt.
+  </Tab>
+</Tabs>
+
+## Lägg till kod
+
+<Steps>
+  <Step title="Öppna anpassad kod">
+    Gå till **Inställningar** och öppna **Allmänna inställningar**.
+  </Step>
+
+  <Step title="Välj kodtyp">
+    Välj om du vill lägga till **Custom CSS** eller **Custom JavaScript**.
+  </Step>
+
+  <Step title="Skapa en snutt">
+    Klicka på **Lägg till**, ge snutten ett namn och klistra in koden.
+  </Step>
+
+  <Step title="Spara">
+    Spara ändringarna och kontrollera den publika webbplatsen.
+  </Step>
+</Steps>
+
+## Namn och kod
+
+Varje kodsnutt har ett namn och ett kodfält.
+
+<AccordionGroup>
+  <Accordion title="Namn">
+    Namnet visas i adminpanelen och hjälper dig att förstå vad snutten används till.
+  </Accordion>
+
+  <Accordion title="Kod">
+    Kodfältet innehåller själva CSS- eller JavaScript-koden som ska användas på webbplatsen.
+  </Accordion>
+</AccordionGroup>
+
+## Testa efter ändring
+
+Efter att du har sparat bör du kontrollera de sidor som påverkas.
+
+<Tip>
+  Testa gärna på en enskild sida eller i en mindre kodsnutt först. Det gör det enklare att hitta fel om något inte beter sig som förväntat.
+</Tip>
