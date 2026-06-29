@@ -67,17 +67,42 @@
           },
           {
             "tab": "Polar CMS",
-            "groups": [
+            "pages": [
               {
-                "group": "Polar CMS",
+                "group": "Kom igång",
                 "pages": [
-                  "sidor",
-                  "inlaegg",
-                  "evenemang",
-                  "meny",
-                  "formulaer",
-                  "utseende"
+                  "introduktion"
                 ]
+              },
+              {
+                "group": "Sidor",
+                "pages": [
+                  "oeversikt",
+                  "skapa-sida",
+                  {
+                    "group": "Redigera sida",
+                    "pages": []
+                  },
+                  "seo-optimering",
+                  "radera-sida"
+                ]
+              },
+              {
+                "group": "Inlägg",
+                "pages": []
+              },
+              {
+                "group": "Evenemang",
+                "pages": []
+              },
+              "meny-1",
+              {
+                "group": "Formulär",
+                "pages": []
+              },
+              {
+                "group": "Utseende",
+                "pages": []
               }
             ]
           },
