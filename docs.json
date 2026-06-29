@@ -93,7 +93,8 @@
                             "pages": [
                               "topbar",
                               "sidhuvud"
-                            ]
+                            ],
+                            "icon": "folders"
                           }
                         ]
                       },
@@ -254,12 +255,7 @@
     "dark": "/images/wividarc-logo-dark.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -341,5 +337,8 @@
   },
   "markdown": {
     "schema": true
+  },
+  "appearance": {
+    "default": "system"
   }
 }
