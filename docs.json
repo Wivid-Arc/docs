@@ -21,58 +21,13 @@
         ]
       }
     ],
-    "tabs": [
+    "languages": [
       {
-        "tab": "Kom igång",
-        "languages": [
+        "language": "sv",
+        "default": true,
+        "tabs": [
           {
-            "language": "sv",
-            "default": true,
-            "groups": [
-              {
-                "group": "Kom igång",
-                "pages": []
-              },
-              {
-                "group": "Dashboarden",
-                "pages": []
-              },
-              {
-                "group": "Polar CMS",
-                "pages": []
-              },
-              {
-                "group": "Aurora booking",
-                "pages": []
-              },
-              {
-                "group": "Verktyg",
-                "pages": [
-                  {
-                    "group": "Analys",
-                    "expanded": true,
-                    "pages": []
-                  },
-                  {
-                    "group": "Marknadsföring",
-                    "expanded": true,
-                    "pages": []
-                  }
-                ]
-              },
-              {
-                "group": "Konto",
-                "pages": []
-              },
-              {
-                "group": "Företaget",
-                "pages": []
-              }
-            ]
-          },
-          {
-            "language": "sv",
-            "default": true,
+            "tab": "Introduktion",
             "groups": [
               {
                 "group": "Kom igång",
@@ -87,27 +42,6 @@
                 "pages": [
                   "oversikt",
                   "byt-mellan-projekt"
-                ]
-              },
-              {
-                "group": "Verktyg",
-                "pages": [
-                  {
-                    "group": "Analys",
-                    "expanded": true,
-                    "pages": [
-                      "statistik",
-                      "prestanda"
-                    ]
-                  },
-                  {
-                    "group": "Marknadsföring",
-                    "expanded": true,
-                    "pages": [
-                      "e-post"
-                    ]
-                  },
-                  "filer"
                 ]
               },
               {
@@ -130,38 +64,44 @@
                 ]
               }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Polar CMS",
-        "groups": [
+          },
           {
-            "group": "Polar CMS",
-            "pages": [
-              "sidor",
-              "inlaegg",
-              "evenemang",
-              "meny",
-              "formulaer",
-              "utseende"
+            "tab": "Polar CMS",
+            "groups": [
+              {
+                "group": "Polar CMS",
+                "pages": [
+                  "sidor",
+                  "inlaegg",
+                  "evenemang",
+                  "meny",
+                  "formulaer",
+                  "utseende"
+                ]
+              }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Aurora booking",
-        "groups": [
+          },
           {
-            "group": "Aurora booking",
+            "tab": "Aurora booking",
+            "groups": [
+              {
+                "group": "Aurora booking",
+                "pages": [
+                  "kalender",
+                  "bokningar",
+                  "upplevelser",
+                  "kunder",
+                  "agentur",
+                  "rabatter",
+                  "presentkort"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Changelog",
             "pages": [
-              "kalender",
-              "bokningar",
-              "upplevelser",
-              "kunder",
-              "agentur",
-              "rabatter",
-              "presentkort"
+              "changelog"
             ]
           }
         ]
