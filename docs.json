@@ -21,12 +21,17 @@
         ]
       }
     ],
-    "groups": [
+    "languages": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "language": "sv",
+        "default": true,
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "valkommen"
+            ]
+          }
         ]
       }
     ]
