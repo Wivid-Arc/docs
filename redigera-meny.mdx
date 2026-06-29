@@ -1,4 +1,183 @@
 ---
 title: "Redigera meny"
 icon: "edit"
+description: "Så redigerar du menyer, menyobjekt, dropdowns och megamenyer."
 ---
+
+I menyredigeraren bygger du upp menyns struktur.
+
+Du kan lägga till vanliga länkar, dropdowns och megamenyer. Du kan också sortera, duplicera, redigera och ta bort menyobjekt.
+
+## Öppna en meny
+
+1. Gå till **Webbplats**.
+2. Öppna **Meny**.
+3. Klicka på menyn du vill redigera eller välj **Redigera** i åtgärdsmenyn.
+
+## Redigerarens layout
+
+Redigeraren består av två huvudsakliga delar:
+
+- **Namn**, där du kan ändra menyns namn.
+- **Menyobjekt**, där du bygger själva menyn.
+
+När du gör ändringar behöver du spara dem innan du lämnar redigeraren.
+
+<Tip>
+  Om du har osparade ändringar visas de som osparade i adminpanelen. Spara innan du lämnar sidan.
+</Tip>
+
+## Lägga till menyobjekt
+
+Klicka på **Lägg till** i sektionen **Menyobjekt**.
+
+Du kan välja:
+
+- **Länk**
+- **Dropdown**
+- **Megameny**
+
+## Typ: Länk
+
+En länk är ett vanligt menyobjekt som skickar besökaren till en sida, ett inlägg, ett arkiv eller en extern URL.
+
+### Fält
+
+| Fält | Beskrivning |
+| --- | --- |
+| Etikett | Texten som visas i menyn. |
+| Typ | Välj `Länk`. |
+| Länk | Målet som besökaren skickas till. |
+| Ikon | Valfri ikon som kan visas tillsammans med etiketten. |
+
+### Länkfältet
+
+I länkfältet kan du välja eller skriva en länk.
+
+Vanliga exempel:
+
+- en sida på webbplatsen
+- ett inlägg
+- inläggsarkivet
+- en relativ länk, till exempel `/kontakt`
+- en extern URL, till exempel `https://exempel.se`
+- en ankarlänk, till exempel `#kontakt`
+
+## Typ: Dropdown
+
+En dropdown är ett menyobjekt som öppnar en undermeny.
+
+Dropdown passar när du vill samla flera relaterade länkar under samma rubrik, till exempel **Tjänster**, **Om oss** eller **Resurser**.
+
+### Fält
+
+| Fält | Beskrivning |
+| --- | --- |
+| Etikett | Texten som visas i menyn. |
+| Typ | Välj `Dropdown`. |
+| Ikon | Valfri ikon för dropdown-rubriken. |
+
+När du skapar en dropdown skapas standardlänkar som du kan redigera eller ta bort.
+
+### Undermeny i dropdown
+
+I en dropdown kan du lägga till:
+
+- **Länk**
+- **Dropdown**, om en djupare nivå behövs
+
+Du kan expandera dropdownen i listan för att se och redigera undermenyn.
+
+<Note>
+  Undvik för djupa menyer om det gör navigationen svår att överblicka, särskilt på mobil.
+</Note>
+
+## Typ: Megameny
+
+En megameny är en större menystruktur med kolumner.
+
+Den passar när du har många länkar och vill gruppera dem tydligt, till exempel efter tjänster, kategorier eller målgrupper.
+
+### Fält
+
+| Fält | Beskrivning |
+| --- | --- |
+| Etikett | Texten som visas i menyn. |
+| Typ | Välj `Megameny`. |
+| Ikon | Valfri ikon för megamenyn. |
+
+När du skapar en megameny skapas standardkolumner som du kan redigera.
+
+### Kolumner
+
+I en megameny lägger du till **kolumner**.
+
+En kolumn används för att gruppera länkar.
+
+Varje kolumn har:
+
+- etikett
+- ikon
+- underliggande länkar
+
+### Länkar i kolumner
+
+Inuti en kolumn lägger du till vanliga länkar.
+
+Det är dessa länkar som leder besökaren vidare.
+
+## Ikoner
+
+Menyobjekt kan ha en ikon.
+
+Ikonen väljs i ikonfältet och kan visas bredvid etiketten beroende på webbplatsens design.
+
+Använd ikoner sparsamt så att menyn fortfarande är lätt att läsa.
+
+## Sortera menyobjekt
+
+Du kan sortera menyobjekt genom att dra dem i listan.
+
+Du kan också använda åtgärdsmenyn för att:
+
+- flytta upp
+- flytta ner
+
+Samma princip gäller för undermenyer och objekt i megamenyer.
+
+## Åtgärder för menyobjekt
+
+Via åtgärdsmenyn på ett menyobjekt kan du:
+
+- **Redigera**
+- **Duplicera**
+- **Flytta upp**
+- **Flytta ner**
+- **Visa** eller **Dölj** innehåll i dropdowns och megamenyer
+- **Ta bort**
+
+## Duplicera menyobjekt
+
+Duplicering skapar en kopia av menyobjektet direkt under originalet.
+
+Om du duplicerar en dropdown eller megameny kopieras även dess underliggande objekt.
+
+<Warning>
+  Kontrollera alltid kopian efter duplicering. Byt etikett, länk och eventuella underlänkar så att menyn inte innehåller två objekt som leder till fel plats.
+</Warning>
+
+## Ta bort menyobjekt
+
+När du tar bort ett menyobjekt behöver du bekräfta borttagningen.
+
+Om du tar bort en dropdown eller megameny tas även dess underliggande objekt bort från menyn.
+
+## Spara ändringar
+
+När du är klar behöver du spara menyn.
+
+Ändringar i en placerad meny kan påverka den publika webbplatsens navigation direkt efter sparning.
+
+<Note>
+  Om menyn används i sidhuvud eller sidfot kan ändringar synas på flera sidor samtidigt.
+</Note>
