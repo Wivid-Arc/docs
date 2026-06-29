@@ -74,7 +74,15 @@
                   "statistik",
                   "prestanda"
                 ]
-              }
+              },
+              {
+                "group": "Marknadsföring",
+                "expanded": true,
+                "pages": [
+                  "e-post"
+                ]
+              },
+              "filer"
             ]
           },
           {
