@@ -352,6 +352,31 @@
             ]
           },
           {
+            "tab": "Analys",
+            "pages": [
+              {
+                "group": "Kom igång",
+                "pages": [
+                  "introduktion-analys"
+                ]
+              },
+              {
+                "group": "Statistik",
+                "pages": [
+                  "statistik",
+                  "topp-sidor",
+                  "sessioner"
+                ]
+              },
+              {
+                "group": "Prestanda",
+                "pages": [
+                  "prestanda"
+                ]
+              }
+            ]
+          },
+          {
             "tab": "Changelog",
             "pages": [
               "changelog"
