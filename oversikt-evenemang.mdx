@@ -1,0 +1,100 @@
+---
+title: "Översikt"
+icon: "binoculars"
+description: "Så fungerar evenemangslistan i Polar CMS."
+---
+
+Under **Evenemang** hanterar du webbplatsens publika evenemang.
+
+Här ser du alla evenemang, deras status, URL, sidvisningar, senaste ändring och SEO-poäng. Från listan kan du skapa nya evenemang, öppna redigering, ändra arkivinställningar, duplicera eller ta bort evenemang.
+
+## Öppna evenemangslistan
+
+<Steps>
+  <Step title="Logga in i adminpanelen">
+    Välj rätt projekt i dashboarden.
+  </Step>
+
+  <Step title="Gå till Webbplats">
+    Öppna webbplatsdelen i adminpanelen.
+  </Step>
+
+  <Step title="Öppna Evenemang">
+    Här visas alla evenemang för webbplatsen.
+  </Step>
+</Steps>
+
+## Vad du ser i listan
+
+Evenemangslistan visar bland annat:
+
+- evenemangets titel
+- evenemangets URL
+- publiceringsstatus
+- när evenemanget senast ändrades
+- sidvisningar
+- SEO-poäng
+
+URL:en bygger på evenemangsarkivets slug och evenemangets egen slug. Om arkivet till exempel har sluggen `/events` och evenemanget har sluggen `varkonferens`, blir URL:en `/events/varkonferens`.
+
+## Statusar
+
+<AccordionGroup>
+  <Accordion title="Publicerad">
+    Evenemanget är synligt för besökare.
+  </Accordion>
+
+  <Accordion title="Opublicerad">
+    Evenemanget är sparat men visas inte publikt.
+  </Accordion>
+
+  <Accordion title="Schemalagd">
+    Evenemanget publiceras automatiskt vid vald tid.
+  </Accordion>
+
+  <Accordion title="Raderad">
+    Evenemanget ligger bland raderade evenemang och kan återställas eller raderas permanent.
+  </Accordion>
+</AccordionGroup>
+
+## Sök och filtrera
+
+Använd sökfältet för att hitta ett evenemang via titel eller slug.
+
+Du kan också filtrera på:
+
+- alla statusar
+- publicerade
+- schemalagda
+- opublicerade
+- raderade
+
+## Åtgärder för ett evenemang
+
+Via åtgärdsmenyn kan du till exempel:
+
+- **Redigera** evenemanget
+- **Visa** ett publicerat evenemang
+- **Förhandsgranska** ett opublicerat evenemang
+- **Kopiera URL**
+- öppna **Inställningar**
+- **Duplicera** evenemanget
+- **Ta bort** evenemanget
+
+<Note>
+  Opublicerade evenemang kan förhandsgranskas av inloggade användare, men är inte synliga för vanliga besökare.
+</Note>
+
+## Arkivinställningar
+
+Via menyn uppe till höger kan du öppna **Visa arkiv** eller **Inställningar** för evenemangsarkivet.
+
+<CardGroup cols={2}>
+  <Card title="Skapa evenemang" icon="plus" href="/skapa-evenemang">
+    Skapa ett nytt evenemang i Polar CMS.
+  </Card>
+
+  <Card title="Evenemangsarkiv" icon="archive" href="/arkiv-evenemang">
+    Läs mer om arkivets URL, filtrering, sökning och SEO.
+  </Card>
+</CardGroup>

@@ -1,0 +1,103 @@
+---
+title: "Skapa evenemang"
+icon: "plus"
+description: "Så skapar du ett nytt evenemang i Polar CMS."
+---
+
+Du skapar nya evenemang från evenemangslistan.
+
+Ett evenemang kan användas för konferenser, föreläsningar, öppet hus, lanseringar, kurser eller andra händelser som ska visas i webbplatsens evenemangsarkiv.
+
+## Skapa ett nytt evenemang
+
+<Steps>
+  <Step title="Gå till Evenemang">
+    Öppna **Webbplats** och välj **Evenemang**.
+  </Step>
+
+  <Step title="Klicka på Ny">
+    Öppna formuläret för att skapa ett nytt evenemang.
+  </Step>
+
+  <Step title="Fyll i grunduppgifter">
+    Ange namn, slug, datum, eventuell tid eller programrad, bild och taggar.
+  </Step>
+
+  <Step title="Välj publiceringsstatus">
+    Publicera direkt eller skapa evenemanget som utkast.
+  </Step>
+
+  <Step title="Skapa evenemanget">
+    När evenemanget är skapat visas det i listan och kan öppnas i redigeraren.
+  </Step>
+</Steps>
+
+## Duplicera ett befintligt evenemang
+
+Du kan också skapa ett nytt evenemang genom att duplicera ett evenemang som redan finns.
+
+Det är användbart om flera evenemang har liknande upplägg, innehåll eller struktur.
+
+<Steps>
+  <Step title="Öppna Evenemang">
+    Gå till evenemangslistan.
+  </Step>
+
+  <Step title="Öppna åtgärdsmenyn">
+    Välj evenemanget du vill utgå från.
+  </Step>
+
+  <Step title="Välj Duplicera">
+    En kopia skapas med samma innehåll och en ny slug.
+  </Step>
+
+  <Step title="Uppdatera kopian">
+    Byt namn, datum, slug, bild, SEO och innehåll innan publicering.
+  </Step>
+</Steps>
+
+<Warning>
+  Kontrollera alltid kopian innan den publiceras. Det är särskilt viktigt att uppdatera datum, tid, slug och SEO så att evenemanget inte råkar visas som en kopia av originalet.
+</Warning>
+
+## Fält
+
+<AccordionGroup>
+  <Accordion title="Namn">
+    Evenemangets titel. Titeln används i adminpanelen och kan visas publikt beroende på layout.
+  </Accordion>
+
+  <Accordion title="Slug">
+    Den sista delen av evenemangets URL. Om arkivet har sluggen `/events` och evenemanget har sluggen `varkonferens`, blir URL:en `/events/varkonferens`.
+  </Accordion>
+
+  <Accordion title="Startdatum">
+    Datumet då evenemanget börjar. Startdatum krävs om evenemanget ska publiceras direkt.
+  </Accordion>
+
+  <Accordion title="Slutdatum">
+    Valfritt datum om evenemanget pågår över flera dagar.
+  </Accordion>
+
+  <Accordion title="Tid / programrad">
+    Valfri text för tid eller program, till exempel `Klockan 16-18`.
+  </Accordion>
+
+  <Accordion title="Bild">
+    Evenemangets huvudbild. Bilden kan användas i arkivet, i kort och vid delning.
+  </Accordion>
+
+  <Accordion title="Taggar">
+    Taggar hjälper till att kategorisera evenemang och kan användas för filtrering i arkivet.
+  </Accordion>
+</AccordionGroup>
+
+<Tip>
+  Skapa gärna evenemang som utkast först om du vill bygga innehåll, SEO och bilder i lugn och ro innan publicering.
+</Tip>
+
+## Nästa steg
+
+<Card title="Redigera evenemang" icon="edit" href="/introduktion-redigera-evenemang">
+  Lägg till innehållsblock och fyll evenemanget med text, bild, FAQ eller formulär.
+</Card>
