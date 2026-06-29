@@ -17,6 +17,23 @@
           "quickstart"
         ]
       }
+    ],
+    "groups": [
+      {
+        "group": "Kom igång",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Polar CMS",
+        "pages": []
+      },
+      {
+        "group": "Aurora Booking",
+        "pages": []
+      }
     ]
   },
   "logo": {
