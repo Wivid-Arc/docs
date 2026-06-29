@@ -21,49 +21,60 @@
         ]
       }
     ],
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "TEST",
-        "dropdowns": [
+        "tab": "Untitled Tab",
+        "anchors": [
           {
-            "dropdown": "TEST",
-            "languages": [
+            "anchor": "TEST",
+            "dropdowns": [
               {
-                "language": "sv",
-                "groups": [
-                  {
-                    "group": "Kom igång",
-                    "pages": [
-                      "valkommen",
-                      "skapa-ditt-konto",
-                      "quick-start"
-                    ]
-                  },
-                  {
-                    "group": "Dashboarden",
-                    "pages": [
-                      "oversikt",
-                      "byt-mellan-projekt"
-                    ]
-                  },
-                  {
-                    "group": "Wivid Arc konto",
-                    "pages": [
-                      "kontoinstaellningar",
-                      "inloggningsmetoder",
-                      "tvafaktorsautentisering",
-                      "radera-konto"
-                    ]
-                  },
-                  {
-                    "group": "Polar CMS",
-                    "pages": []
-                  },
-                  {
-                    "group": "Aurora Booking",
-                    "pages": []
-                  }
+                "dropdown": "TEST"
+              }
+            ]
+          },
+          {
+            "anchor": "Untitled Anchor"
+          }
+        ]
+      },
+      {
+        "tab": "Untitled Tab",
+        "languages": [
+          {
+            "language": "sv",
+            "groups": [
+              {
+                "group": "Kom igång",
+                "pages": [
+                  "valkommen",
+                  "skapa-ditt-konto",
+                  "quick-start"
                 ]
+              },
+              {
+                "group": "Dashboarden",
+                "pages": [
+                  "oversikt",
+                  "byt-mellan-projekt"
+                ]
+              },
+              {
+                "group": "Wivid Arc konto",
+                "pages": [
+                  "kontoinstaellningar",
+                  "inloggningsmetoder",
+                  "tvafaktorsautentisering",
+                  "radera-konto"
+                ]
+              },
+              {
+                "group": "Polar CMS",
+                "pages": []
+              },
+              {
+                "group": "Aurora Booking",
+                "pages": []
               }
             ]
           }
