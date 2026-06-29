@@ -58,6 +58,17 @@
               "radera-foeretag",
               "sekretess-and-sakerhet"
             ]
+          },
+          {
+            "group": "Polar CMS",
+            "pages": [
+              "sidor",
+              "inlaegg",
+              "evenemang",
+              "meny",
+              "formulaer",
+              "utseende"
+            ]
           }
         ]
       }
