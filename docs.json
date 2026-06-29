@@ -36,7 +36,12 @@
                   "skapa-ditt-konto",
                   "quick-start"
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "tab": "Adminpanelen",
+            "groups": [
               {
                 "group": "Dashboarden",
                 "pages": [
@@ -59,7 +64,21 @@
                 "pages": [
                   "allmanna-installningar",
                   "anvandare",
-                  "radera-foretag",
+                  "radera-foretag"
+                ]
+              },
+              {
+                "group": "Inställningar",
+                "pages": [
+                  "oversikt-installningar",
+                  "doman",
+                  "sprak",
+                  "e-post",
+                  "filer",
+                  "cookies",
+                  "policyer",
+                  "seo-installningar",
+                  "omdirigeringar",
                   "sekretess-och-sakerhet"
                 ]
               }

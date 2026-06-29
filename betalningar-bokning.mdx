@@ -8,17 +8,36 @@ Betalningsinställningarna styr hur bokningar kan betalas och hur intäkter hant
 
 Dessa inställningar ligger under webbplatsens inställningar och påverkar bokningsflödet.
 
-## Stripe
+## Betalningskonto
 
-Aurora Booking använder Stripe för kortbetalningar och betalningsrelaterade åtgärder.
+För att ta betalt online behöver projektet ha ett kopplat betalningskonto.
 
-Kontrollera att Stripe är korrekt kopplat innan du börjar ta emot skarpa bokningar.
+Kontrollera att betalningskontot är korrekt kopplat innan du börjar ta emot skarpa bokningar.
+
+## Betalningsmetoder
+
+Du kan styra vilka betalningsmetoder som ska vara aktiva i bokningsflödet.
+
+Exempel på betalningsmetoder kan vara:
+
+- kortbetalning
+- Swish
+- Klarna
+- Apple Pay
+- Google Pay
+- betala på plats
 
 ## Valutor
 
 Om webbplatsen använder flera valutor påverkar det hur priser visas på upplevelser.
 
 Varje prisnivå behöver ha ett pris i standardvalutan.
+
+## Moms
+
+Om projektet använder moms kan momssats anges i betalningsinställningarna.
+
+Momsen används för att visa och beräkna belopp i bokningsflödet.
 
 ## Bokningsavgift
 
@@ -33,5 +52,5 @@ När det är aktivt visas avgiften i gästens beställning.
 Policyn påverkar vad som händer när en bokning avbokas av administratör eller gäst.
 
 <Warning>
-  Testa betalningsflödet innan du publicerar upplevelser skarpt. Kontrollera särskilt Stripe-koppling, valutor, prisnivåer och återbetalningspolicy.
+  Testa betalningsflödet innan du publicerar upplevelser skarpt. Kontrollera särskilt betalningskonto, valutor, prisnivåer och återbetalningspolicy.
 </Warning>
