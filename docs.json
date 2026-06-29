@@ -42,7 +42,43 @@
             ]
           },
           {
-            "group": "Wivid Arc konto",
+            "group": "Polar CMS",
+            "pages": [
+              "sidor",
+              "inlaegg",
+              "evenemang",
+              "meny",
+              "formulaer",
+              "utseende"
+            ]
+          },
+          {
+            "group": "Aurora booking",
+            "pages": [
+              "kalender",
+              "bokningar",
+              "upplevelser",
+              "kunder",
+              "agentur",
+              "rabatter",
+              "presentkort"
+            ]
+          },
+          {
+            "group": "Verktyg",
+            "pages": [
+              {
+                "group": "Analys",
+                "expanded": true,
+                "pages": [
+                  "statistik",
+                  "prestanda"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Konto",
             "pages": [
               "kontoinstallningar",
               "inloggningsmetoder",
@@ -52,23 +88,12 @@
             ]
           },
           {
-            "group": "Hantera företaget",
+            "group": "Företaget",
             "pages": [
               "allmaenna-instaellningar",
               "anvaendare",
               "radera-foeretag",
               "sekretess-and-sakerhet"
-            ]
-          },
-          {
-            "group": "Polar CMS",
-            "pages": [
-              "sidor",
-              "inlaegg",
-              "evenemang",
-              "meny",
-              "formulaer",
-              "utseende"
             ]
           }
         ]
