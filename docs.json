@@ -166,10 +166,14 @@
                 ]
               },
               {
-                "group": "Evenemang",
-                "pages": []
+                "group": "Meny",
+                "pages": [
+                  "oeversikt-1",
+                  "skapa-meny",
+                  "redigera-meny",
+                  "radera-meny"
+                ]
               },
-              "meny-1",
               {
                 "group": "Formulär",
                 "pages": []
