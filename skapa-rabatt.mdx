@@ -8,16 +8,27 @@ Rabatter används för kampanjer, erbjudanden och särskilda bokningsvillkor.
 
 ## Skapa rabatt
 
-1. Gå till **Rabatter**.
-2. Klicka på **Ny**.
-3. Ange rabattkod.
-4. Ange namn vid behov.
-5. Välj rabattyp.
-6. Ange rabattvärde.
-7. Välj eventuella minimikrav och användningsgränser.
-8. Ange startdatum och eventuellt slutdatum.
-9. Välj om rabatten ska vara aktiv.
-10. Spara.
+<Steps>
+  <Step title="Öppna rabatter">
+    Gå till **Rabatter** och klicka på **Ny**.
+  </Step>
+
+  <Step title="Ange kod och namn">
+    Ange rabattkod och namn vid behov.
+  </Step>
+
+  <Step title="Välj rabattregler">
+    Välj rabattyp, rabattvärde, minimikrav och användningsgränser.
+  </Step>
+
+  <Step title="Sätt giltighet och status">
+    Ange startdatum, eventuellt slutdatum och välj om rabatten ska vara aktiv.
+  </Step>
+
+  <Step title="Spara">
+    Spara rabatten när inställningarna är klara.
+  </Step>
+</Steps>
 
 ## Rabattkod
 
@@ -27,18 +38,31 @@ Du kan skriva en egen kod eller generera en kod.
 
 ## Rabattyp
 
-Du kan välja:
+<AccordionGroup>
+  <Accordion title="Procent (%)">
+    Rabatten drar av en procentuell del av köpet.
+  </Accordion>
 
-- **Procent (%)**
-- **Fast belopp (kr)**
+  <Accordion title="Fast belopp (kr)">
+    Rabatten drar av ett fast belopp från köpet.
+  </Accordion>
+</AccordionGroup>
 
 ## Minsta köpkrav
 
-Rabatten kan kräva:
+<AccordionGroup>
+  <Accordion title="Inget minimikrav">
+    Kunden kan använda rabatten utan särskilda villkor.
+  </Accordion>
 
-- inget minimikrav
-- minsta köpbelopp
-- minsta antal personer
+  <Accordion title="Minsta köpbelopp">
+    Rabatten kan bara användas om bokningen når ett visst belopp.
+  </Accordion>
+
+  <Accordion title="Minsta antal personer">
+    Rabatten kan bara användas om bokningen gäller tillräckligt många personer.
+  </Accordion>
+</AccordionGroup>
 
 ## Användningsgränser
 

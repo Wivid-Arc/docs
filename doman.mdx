@@ -10,23 +10,45 @@ Domänen styr vilka adresser besökare använder för att komma till webbplatsen
 
 ## Lägg till domän
 
-1. Gå till **Inställningar**.
-2. Öppna **Domän**.
-3. Klicka på **Lägg till domän**.
-4. Ange domänen.
-5. Följ DNS-instruktionerna.
-6. Verifiera domänen när DNS-posterna är tillagda.
+<Steps>
+  <Step title="Öppna domäninställningar">
+    Gå till **Inställningar** och öppna **Domän**.
+  </Step>
+
+  <Step title="Lägg till domänen">
+    Klicka på **Lägg till domän** och ange domänen du vill koppla.
+  </Step>
+
+  <Step title="Uppdatera DNS">
+    Följ DNS-instruktionerna som visas i adminpanelen.
+  </Step>
+
+  <Step title="Verifiera domänen">
+    Verifiera domänen när DNS-posterna är tillagda och har hunnit slå igenom.
+  </Step>
+</Steps>
 
 ## Domänstatus
 
 Domänen kan ha olika status beroende på om DNS är korrekt konfigurerat.
 
-Vanliga lägen är:
+<AccordionGroup>
+  <Accordion title="Saknas">
+    DNS-poster saknas eller har inte hittats ännu.
+  </Accordion>
 
-- saknas
-- väntar
-- giltig
-- ogiltig
+  <Accordion title="Väntar">
+    Domänen är tillagd, men verifieringen är inte klar än.
+  </Accordion>
+
+  <Accordion title="Giltig">
+    Domänen är korrekt konfigurerad och kan användas.
+  </Accordion>
+
+  <Accordion title="Ogiltig">
+    Något i DNS-inställningarna behöver kontrolleras.
+  </Accordion>
+</AccordionGroup>
 
 ## Primär domän
 

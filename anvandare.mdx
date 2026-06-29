@@ -33,11 +33,19 @@ Om en användare ännu inte har accepterat sin inbjudan kan statusen visa att in
 
 När du bjuder in en användare väljer du vilken behörighet personen ska ha.
 
-| Behörighet | Beskrivning |
-| --- | --- |
-| Admin | Kan hantera inställningar och användare för projektet. |
-| Redaktör | Kan arbeta med innehåll men har mer begränsad åtkomst till inställningar. |
-| Visare | Kan se innehåll och information men har begränsade möjligheter att ändra. |
+<AccordionGroup>
+  <Accordion title="Admin">
+    Kan hantera inställningar och användare för projektet.
+  </Accordion>
+
+  <Accordion title="Redaktör">
+    Kan arbeta med innehåll men har mer begränsad åtkomst till inställningar.
+  </Accordion>
+
+  <Accordion title="Visare">
+    Kan se innehåll och information men har begränsade möjligheter att ändra.
+  </Accordion>
+</AccordionGroup>
 
 <Note>
   Vilka delar en användare faktiskt ser kan också bero på vilka produkter och moduler som är aktiverade för projektet.
@@ -45,10 +53,19 @@ När du bjuder in en användare väljer du vilken behörighet personen ska ha.
 
 ## Bjud in en ny användare
 
-1. Klicka på **Ny**.
-2. Ange användarens e-postadress.
-3. Välj behörighet.
-4. Klicka på **Skicka inbjudan**.
+<Steps>
+  <Step title="Skapa inbjudan">
+    Klicka på **Ny**.
+  </Step>
+
+  <Step title="Ange mottagare och behörighet">
+    Ange användarens e-postadress och välj behörighet.
+  </Step>
+
+  <Step title="Skicka">
+    Klicka på **Skicka inbjudan**.
+  </Step>
+</Steps>
 
 Användaren får ett mail med en länk för att skapa sitt konto och komma åt projektet.
 
@@ -60,9 +77,15 @@ Användaren får ett mail med en länk för att skapa sitt konto och komma åt p
 
 Du kan ta bort en användares åtkomst till projektet.
 
-1. Öppna åtgärdsmenyn för användaren.
-2. Välj **Ta bort**.
-3. Bekräfta att användaren ska tas bort från sidan.
+<Steps>
+  <Step title="Öppna användarens åtgärder">
+    Öppna åtgärdsmenyn för användaren.
+  </Step>
+
+  <Step title="Ta bort åtkomsten">
+    Välj **Ta bort** och bekräfta att användaren ska tas bort från sidan.
+  </Step>
+</Steps>
 
 När användaren tas bort förlorar personen åtkomst till projektet.
 
