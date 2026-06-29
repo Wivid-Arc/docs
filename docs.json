@@ -16,8 +16,8 @@
       {
         "group": "Getting Started",
         "pages": [
-          "index",
-          "quickstart"
+          "valkommen",
+          "quick-start"
         ]
       }
     ],
@@ -57,10 +57,10 @@
               {
                 "group": "Företaget",
                 "pages": [
-                  "allmaenna-instaellningar",
-                  "anvaendare",
-                  "radera-foeretag",
-                  "sekretess-and-sakerhet"
+                  "allmanna-installningar",
+                  "anvandare",
+                  "radera-foretag",
+                  "sekretess-och-sakerhet"
                 ]
               }
             ]
@@ -77,7 +77,7 @@
               {
                 "group": "Sidor",
                 "pages": [
-                  "oeversikt",
+                  "oversikt-sidor",
                   "skapa-sida",
                   {
                     "group": "Redigera sida",
@@ -106,18 +106,18 @@
                             "group": "Blockbibliotek",
                             "icon": "folders",
                             "pages": [
-                              "huvudbanner-v1-1",
-                              "huvudbanner-v2-1",
+                              "huvudbanner-v1",
+                              "huvudbanner-v2",
                               "ikoner",
                               "bild-med-funktioner",
                               "bild-med-text",
                               "karta",
-                              "raeknare",
+                              "raknare",
                               "logotyper",
                               "kort",
                               "recensioner",
                               "google-recensioner",
-                              "instagram-floede",
+                              "instagram-flode",
                               "prisplaner",
                               "en-prisplan",
                               "pristabell",
@@ -173,7 +173,7 @@
                         "group": "Inläggets block",
                         "icon": "layout-2",
                         "pages": [
-                          "introduktion-inlagg-blcok",
+                          "introduktion-inlagg-block",
                           {
                             "group": "Blockbibliotek",
                             "icon": "folders",
@@ -191,13 +191,13 @@
                   },
                   "seo-optimering-inlagg",
                   "arkiv",
-                  "radera-inlaegg"
+                  "radera-inlagg"
                 ]
               },
               {
                 "group": "Meny",
                 "pages": [
-                  "oeversikt-1",
+                  "oversikt-meny",
                   "skapa-meny",
                   "redigera-meny",
                   "radera-meny"
@@ -206,17 +206,17 @@
               {
                 "group": "Formulär",
                 "pages": [
-                  "oeversikt-2",
-                  "skapa-formulaer",
-                  "redigera-formulaer",
+                  "oversikt-formular",
+                  "skapa-formular",
+                  "redigera-formular",
                   "se-inskick",
-                  "radera-fomulaer"
+                  "radera-formular"
                 ]
               },
               {
                 "group": "Utseende",
                 "pages": [
-                  "oeversikt-3",
+                  "oversikt-utseende",
                   "farger",
                   "typsnitt",
                   "textstorlekar",
